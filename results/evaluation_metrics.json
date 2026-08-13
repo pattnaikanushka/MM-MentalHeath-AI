@@ -1,0 +1,76 @@
+{
+  "classification": {
+    "headline_metric": "Macro-F1",
+    "Macro_F1": 0.3563,
+    "Accuracy": 0.5325,
+    "Weighted_F1": 0.4851,
+    "ROC_AUC_OVR": 0.7511,
+    "Precision_Per_Class": [
+      0.5833,
+      0.539,
+      0.5132,
+      0.2
+    ],
+    "Recall_Per_Class": [
+      0.1842,
+      0.8325,
+      0.3545,
+      0.0435
+    ],
+    "F1_Per_Class": [
+      0.28,
+      0.6543,
+      0.4194,
+      0.0714
+    ],
+    "Confusion_Matrix": [
+      [
+        14,
+        62,
+        0,
+        0
+      ],
+      [
+        9,
+        159,
+        22,
+        1
+      ],
+      [
+        1,
+        67,
+        39,
+        3
+      ],
+      [
+        0,
+        7,
+        15,
+        1
+      ]
+    ]
+  },
+  "regression_per_target": {
+    "Depression_Score": {
+      "MAE": 5.3893,
+      "MSE": 45.6918,
+      "RMSE": 6.7596,
+      "R2_Score": 0.3874,
+      "Explained_Variance": 0.3878
+    },
+    "Anxiety_Score": {
+      "MAE": 6.1971,
+      "MSE": 59.021,
+      "RMSE": 7.6825,
+      "R2_Score": 0.3876,
+      "Explained_Variance": 0.3877
+    },
+    "Stress_Score": {
+      "MAE": 6.8088,
+      "MSE": 71.0852,
+      "RMSE": 8.4312,
+      "R2_Score": 0.3701,
+      "Explained_Variance": 0.3714
+    }
+  }
+}
